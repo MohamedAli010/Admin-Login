@@ -1,0 +1,92 @@
+body{
+    background: linear-gradient(
+        -135deg
+        , #c850c0, #4158d0);
+        font-family: 'Roboto Condensed', sans-serif;
+}
+/* container-admin */
+.container-admin
+{
+    margin: 100px auto;
+    width:50%;
+    height:380px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px #ccc,
+    -2px -2px 2px #ccc
+}
+/* text-admin  */
+.text-admin 
+{
+    width:100%;
+    height: 60px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 5px;
+
+}
+
+.text-admin h2
+{
+    color:black;
+}
+
+/* content-admin */
+.content-admin
+{
+    width:100%;
+    height: 135px;
+}
+
+input
+{
+    display: block;
+    margin:auto;
+    margin-bottom: 15px;
+    width:50%;
+    height:45px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: #E6E6E6;
+    padding-left: 9%;
+    font-size: 16.5px;
+
+}
+
+.input 
+{
+    position: relative;
+}
+.input i
+{
+    position: absolute;
+    left: 23.5%;
+    top:23.8%;
+    color: #666666;
+}
+
+.btn button
+{  
+    width:58%;
+    height:45px;
+    border-radius: 20px;
+    background-color: #57B846;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    transition: all .3s ease-in-out;
+    margin-bottom:3% ;
+
+}
+
+.btn button:hover
+{
+    transform: scale(1.08);
+}
+
+/* forget */
+.forget a
+{
+    color: #3f4347;
+}
